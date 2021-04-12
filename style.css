@@ -1,3 +1,104 @@
 body { 
     background-color: black;
+    letter-spacing: 8px;
+    font-family: 'Space Mono', monospace;
+    color: gainsboro;
+}
+
+.orange { 
+    color: orange;
+}
+
+.green { 
+    color: green;
+}
+
+.login-container { 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/* LOGO CONTAINER  */
+
+.logo-container { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comp { 
+    height: 90px;
+    padding: 0 10px;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 2em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    color: purple;   
+}
+
+/* ANIMATION */
+.anim-typewriter{
+  animation: typewriter 5s steps(30) 2s 1 normal both,
+             blinkTextCursor 800ms steps(30) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 18em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.welcome { 
+    padding: 75px 0 40px 0;
+}
+
+/* CREDENTIALS CONTAINER */
+
+.login-form { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.forgot-pw { 
+    font-size: 0.75em;
+    margin: 35px 10px;
+}
+
+.boxed { 
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 10px 5px 18px white;
+    padding: 15px 20px;
+    width: 25em;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.xtra-margin { 
+    margin-bottom: 3em;
+}
+
+.submit-btn { 
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+    background-color: black;
+    border: none;
+    color: hotpink;
+    cursor: pointer;
+    letter-spacing: 8px;
 }
