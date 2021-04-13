@@ -13,6 +13,28 @@ body {
     color: green;
 }
 
+.hotpink { 
+    color: hotpink;
+}
+
+.no-marg { 
+    margin: 0;
+}
+
+a { 
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+a:hover { 
+    color:royalblue;
+    text-decoration: underline;
+}
+
+/* a:visited { 
+    text-decoration: none;
+} */
+
 .login-container { 
     display: flex; 
     flex-direction: column;
@@ -101,4 +123,40 @@ body {
     color: hotpink;
     cursor: pointer;
     letter-spacing: 8px;
+}
+
+/* SECTION MAIN NAV  */
+
+.main-nav { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 225px 0;
+}
+
+.group-1 { 
+    font-size: 2.25em;
+    text-align: right;
+    padding: 0;
+}
+
+.group-3 { 
+    display: flex;
+    flex-direction: column;
+}
+
+.comp-nav { 
+    height: 200px;
+    padding: 0 35px;
+}
+
+.junk-nav { 
+    padding: 0;
+}
+
+/* SECTION ALL FILES */
+
+#all-files { 
+    padding: 100px 0;
 }
