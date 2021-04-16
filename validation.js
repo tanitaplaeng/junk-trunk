@@ -5,7 +5,7 @@ function validate(){
     const password = document.getElementById("password").value;
     if (email == "thegloryholebar@dragmail.net" && password == "pornstarmankini750") { 
         alert("Login successful!");
-        window.location = "dropbox-nav.html"; // redirectiong to email
+        window.location = "dropbox.html"; // redirectiong to email
         return false;
     }
         else { 
