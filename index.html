@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
@@ -13,7 +15,7 @@
 </head>
 <body>
     <section class="login-container">
-    <div class="logo-container">
+    <div class="flex-row-center">
         <h1 class="orange">Junk </h1>
         <img class="comp" src="assets/comp.png">
         <h1 class="green">Trunk </h1>
@@ -32,8 +34,8 @@
                 <label for="password"></label>
               </div>
             <div class="checkbox-pw">
-                <div class="forgot-pw">
-                    <a tabindex="0" class="popover-style popover-dismiss" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="Too bad. Keep looking!">Forgot Password?</a>
+                <div class="forgot-pw" >
+                    <a tabindex="0" id="forgotPW" onclick="alert('Whats the matter, bitch? Too much to drink?')">Forgot Password?</a>
                 </div>
             </div>
             <div class="button-container">

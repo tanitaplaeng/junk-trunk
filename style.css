@@ -35,6 +35,16 @@ a:hover {
     text-decoration: none;
 } */
 
+.comp { 
+    height: 90px;
+    padding: 0 10px;
+}
+
+.file-icon { 
+    height: 32px;
+    margin-right: 8px;
+}
+
 .login-container { 
     display: flex; 
     flex-direction: column;
@@ -44,15 +54,10 @@ a:hover {
 
 /* LOGO CONTAINER  */
 
-.logo-container { 
+.flex-row-center { 
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.comp { 
-    height: 90px;
-    padding: 0 10px;
 }
 
 .line-1{
@@ -99,6 +104,7 @@ a:hover {
 .forgot-pw { 
     font-size: 0.75em;
     margin: 35px 10px;
+    cursor: pointer;
 }
 
 .boxed { 
@@ -157,6 +163,19 @@ a:hover {
 
 /* SECTION ALL FILES */
 
-#all-files { 
-    padding: 100px 0;
+.cookie-crumb { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 50px 0;
+}
+
+.style{ 
+    padding: 25px 50px;
+}
+
+/* TABLE  */
+.table-container { 
+    /* border: 1px solid white; */
+    width: 100%;
 }
