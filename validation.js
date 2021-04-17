@@ -13,13 +13,13 @@ function validate(){
         }
 }
 
-// POPOVER ON FORGOT PASSWORD 
+// POPOVER ON FORGOT PASSWORD IN DROPBOX 
 
 function forgotPassword() { 
   document.getElementById("forgotPW").click(); // gets element by ID and listens to click event to trigger popup 
 }
 
-// POPOVER ON UPLOAD 
+// POPOVER ON UPLOAD IN WORKSPACE
 
 function upload() { 
   document.getElementById("upload").click();

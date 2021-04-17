@@ -1,5 +1,5 @@
 body { 
-    background-color: black;
+    background-color: #121212;
     letter-spacing: 8px;
     font-family: 'Space Mono', monospace;
     color: gainsboro;
@@ -13,27 +13,48 @@ body {
     color: green;
 }
 
+.lt-green { 
+    color: greenyellow;
+}
+
 .hotpink { 
     color: hotpink;
+}
+
+.purple {
+    color: #3700B3;
+}
+
+.lt-grey { 
+    color: #bdbdbd;
+}
+
+.grey { 
+    color: #eee;
 }
 
 .no-marg { 
     margin: 0;
 }
 
+.bottom-pad { 
+    padding-bottom: 15px;
+}
+
 a { 
     padding: 10px 0;
     text-decoration: none;
+    /* color: gainsboro; */
 }
 
 a:hover { 
-    color:royalblue;
+    /* color: #3700B3; */
     text-decoration: underline;
 }
 
-/* a:visited { 
+a.junk:hover { 
     text-decoration: none;
-} */
+}
 
 .comp { 
     height: 90px;
@@ -176,6 +197,6 @@ a:hover {
 
 /* TABLE  */
 .table-container { 
-    /* border: 1px solid white; */
     width: 100%;
+    padding: 20px;
 }
