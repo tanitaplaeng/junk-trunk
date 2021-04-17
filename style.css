@@ -25,14 +25,6 @@ body {
     color: #3700B3;
 }
 
-.lt-grey { 
-    color: #bdbdbd;
-}
-
-.grey { 
-    color: #eee;
-}
-
 .no-marg { 
     margin: 0;
 }
@@ -44,11 +36,18 @@ body {
 a { 
     padding: 10px 0;
     text-decoration: none;
-    /* color: gainsboro; */
 }
 
 a:hover { 
-    /* color: #3700B3; */
+    text-decoration: underline;
+}
+
+a.nav { 
+    color: #bdbdbd;
+}
+
+a.nav:hover { 
+    color: #3700B3;
     text-decoration: underline;
 }
 
