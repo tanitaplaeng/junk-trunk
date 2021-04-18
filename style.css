@@ -35,13 +35,14 @@ body {
 
 a { 
     padding: 10px 0;
-    text-decoration: none;
+    text-decoration: none
 }
 
 a:hover { 
     text-decoration: underline;
 }
 
+a.nav, 
 a.nav:visited { 
     color: gainsboro;
 }
